@@ -12,3 +12,4 @@ lazy_static = "1.4.0"
 regex = "1.10.3"
 unicode-normalization = "0.1.22"
 aegean-numerals-rs = { git = "https://github.com/caiogeraldes/aegean-numerals-rs" }
+betacode = "1.2.0"

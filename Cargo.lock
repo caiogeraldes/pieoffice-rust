@@ -20,10 +20,28 @@ dependencies = [
 ]
 
 [[package]]
+name = "betacode"
+version = "1.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "05a472714b8be136e9ab3edef1bdf90d5431d8fbd032bb8e4f8743c8bce5eed8"
+dependencies = [
+ "lazy_static",
+ "log",
+ "regex",
+ "unicode-normalization",
+]
+
+[[package]]
 name = "lazy_static"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
+
+[[package]]
+name = "log"
+version = "0.4.20"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b5e6163cb8c49088c2c36f57875e58ccd8c87c7427f7fbd50ea6710b2f3f2e8f"
 
 [[package]]
 name = "memchr"
@@ -36,6 +54,7 @@ name = "pieoffice-rust"
 version = "0.1.0"
 dependencies = [
  "aegean-numerals-rs",
+ "betacode",
  "lazy_static",
  "regex",
  "unicode-normalization",
