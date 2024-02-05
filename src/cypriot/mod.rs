@@ -1,4 +1,4 @@
-use super::utils::aegean_numbers::UAegean;
+use aegean_numerals_rs::UAegean;
 use lazy_static::lazy_static;
 use std::collections::HashMap;
 

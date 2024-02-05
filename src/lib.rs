@@ -41,6 +41,4 @@ pub mod cypriot;
 
 pub mod linearb;
 
-pub mod utils;
-
 pub mod avestan;
