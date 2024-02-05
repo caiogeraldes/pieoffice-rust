@@ -1,5 +1,7 @@
 [package]
 name = "pieoffice-rust"
+authors = ["Caio Geraldes <caio.geraldes@usp.br>"]
+description = "Conversion tools for Ancient Indo-European Scripts"
 version = "0.1.0"
 edition = "2021"
 
