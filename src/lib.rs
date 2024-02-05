@@ -20,3 +20,27 @@ pub mod oscan;
 /// | ,or,        ᚖ | ,uilleann,  ᚗ | ,ifin,      ᚘ | ,eam,       ᚙ |
 /// | ,peith,     ᚚ | >           ᚛ | <           ᚜ |               |
 pub mod ogham;
+
+pub mod armenian;
+
+pub mod carian;
+
+pub mod pie;
+
+pub mod oldpersian;
+
+pub mod lydian;
+
+pub mod lycian;
+
+pub mod gothic;
+
+pub mod glagolitic;
+
+pub mod cypriot;
+
+pub mod linearb;
+
+pub mod utils;
+
+pub mod avestan;
