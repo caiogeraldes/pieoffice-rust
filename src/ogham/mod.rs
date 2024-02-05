@@ -1,6 +1,5 @@
 use lazy_static::lazy_static;
 use std::collections::HashMap;
-use unicode_normalization::UnicodeNormalization;
 
 const ENTRY_VALUES: [&str; 31] = [
     ",ear,",
@@ -62,8 +61,6 @@ fn ascii_to_unicode<T: Into<String>>(input: T) -> String {
 
 pub fn convert<T: Into<String>>(input: T) -> String {
     let mut output = input.into();
-    output = output.replace("/", "\u{0301}");
-    output = output.nfkc().collect::<String>();
     output = ascii_to_unicode(output);
     output
 }

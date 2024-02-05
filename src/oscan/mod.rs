@@ -33,7 +33,7 @@ fn ascii_to_unicode<T: Into<String>>(input: T) -> String {
 
 pub fn convert<T: Into<String>>(input: T) -> String {
     let mut output = input.into();
-    output = output.replace("/", "\u{0301}");
+    output = output.replace('/', "\u{0301}");
     output = output.nfkc().collect::<String>();
     output = ascii_to_unicode(output);
     output
